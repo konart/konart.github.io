@@ -13,3 +13,13 @@ xhr.onreadystatechange = function () {
 };
 
 xhr.send(body);
+
+els = document.getElementsByClassName("action")
+for (var i = 0; i < els.length; i++) {
+    els[i].addEventListener("click", function (event) {
+        // display the current click count inside the clicked div
+        //event.target.textContent = "click count: " + event.detail;
+        console.log(event.target.textContent + "!");
+    }, false);
+};
+
