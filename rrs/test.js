@@ -10,7 +10,7 @@ xhr.onreadystatechange = function () {
     };
 };
 
-xhr.send(body);
+xhr.send();
 
 // var data = JSON.parse('{"id": "1", "url": "http://ya.ru", "title": "Mega title", "date": "Today", "itemtype": "test"}')
 
