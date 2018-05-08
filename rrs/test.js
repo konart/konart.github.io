@@ -20,7 +20,7 @@ itemsbar = document.getElementById("items")
 
 var item = document.createElement('div');
 item.className = "content c"
-item.innerHTML = '<div class="title"><a href="' + data.url + '">' + data.title +'</div><div class="done action">D</div><div class="renew action">R</div>'
+item.innerHTML = '<div class="title"><a href="' + data.url + '">' + data.title +'</a></div><div class="done action">D</div><div class="renew action">R</div>'
 
 itemsbar.appendChild(item)
 
