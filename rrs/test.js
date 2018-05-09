@@ -1,7 +1,7 @@
 var xhr = new XMLHttpRequest();
 var data = "";
 
-xhr.open("GET", 'https://ig0wxl2wy3.execute-api.eu-west-1.amazonaws.com/beta/items', true);
+xhr.open("GET", 'https://ig0wxl2wy3.execute-api.eu-west-1.amazonaws.com/beta/items/1', true);
 // xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
 xhr.onreadystatechange = function () {
